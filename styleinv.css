@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Maven+Pro:wght@400..900&display=swap');
+
+* {
+    font-family: "Maven Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    min-height: 5vh;
+    background: aquamarine;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10px;
+}
+
+header nav {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul a {
+    color: black;
+    margin: 0 12px;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header ul a:hover {
+    border-bottom: 1px solid black;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: url(inventario.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-left: 800px;
+    margin-top: 15px;
+}
+
+table {
+    margin-left: 500px;
+    background-color: aqua;
+}
+
+tr, td, th {
+    border: black solid 2px;
+    justify-items: center;
+}
